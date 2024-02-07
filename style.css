@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Professional background color */
+}
+
+.main-container {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 250px; /* Set the minimum width */
+}
+
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    max-width: 250px;
+    background-color: #f7f7f7;
+}
+
+.my-name {
+    padding-top: 20px;
+    color: #000;
+    font-size: 26px;
+    font-family: 'IBM Plex Sans', sans-serif; /* IBM Plex Sans font */
+    text-align: center;
+    font-weight: 900;
+}
+
+.profile-picture {
+    align-self: center; /* Add this line */
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.contacto {
+    padding-top: 18px;
+    color: #000;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.linkedin-link {
+    align-self: center; /* Add this line */
+}
+
+.linkedin {
+    max-width: 35px;
+    border-radius: 50%;
+}
+
+.email {
+    color: #000;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+
+.info-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-width: 1200px;
+    min-width: 250px;
+}
+
+.my-info-title {
+    align-self: center; /* Add this line */
+    padding-top: 30px;
+    padding-left: 26px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: #004c99;
+
+
+}
+
+.my-info {
+    align-self: center; /* Add this line */
+    line-height: 1.5;
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 17px;
+    text-align: left;
+    font-family: 'Lato', serif; /* Garamond font */
+    color: #333333;
+    padding-bottom: 50px;
+}
+
+.inline-image0 {
+    /*width: 3em;  Set the width of the image to match the font size */
+    height: 2em; /* Set the height of the image to match the font size */
+    vertical-align: middle; /* Align the image vertically with the text */
+}
+
+.inline-image {
+    /*width: 3em;  Set the width of the image to match the font size */
+    height: 1em; /* Set the height of the image to match the font size */
+    vertical-align: middle; /* Align the image vertically with the text */
+}
